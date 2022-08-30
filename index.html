@@ -1,129 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="This is a personal website about
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a personal website about
             Aryana Bakhshandeh , an Electerical Engineer and Developer . Also
             Include free courses.">
-        <title>Aryana Bakhshandeh</title>
+    <title>Aryana Bakhshandeh</title>
 
 
-        <!-- BootStrap Style -->
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- BootStrap Style -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 
-        <!-- other Styles -->
-        <link rel="stylesheet" href="./css/stylesheet.css">
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="./image/favicon_io/favicon.ico"
-            type="image/x-icon">
-        <!-- fontAwsome -->
-        <script src="https://kit.fontawesome.com/8d9304f81d.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
+    <!-- other Styles -->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./image/favicon_io/favicon.ico" type="image/x-icon">
+    <!-- fontAwsome -->
+    <script src="https://kit.fontawesome.com/8d9304f81d.js" crossorigin="anonymous"></script>
+</head>
 
+<body>
+
+    <section id="home">
         <!-- NavBar-->
-        
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        
-                <a class="navbar-brand font-hiro ms-5"  href="#">ARYANA BAKHSHANDEH</a>
-                
-                <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
 
-                <div class="collapse navbar-collapse" id="navbarID">
-                    <ul  class="navbar-nav ms-auto pe-5">
-                        <li class="nav-item">   <a href="http://" class="nav-link">  Home        </a>     </li>
-                        <li class="nav-item">   <a href="http://" class="nav-link">  Blog        </a>     </li>
-                        <li class="nav-item">   <a href="http://" class="nav-link">  Teaching    </a>     </li>
-                        <li class="nav-item" >  <a href="http://" class="nav-link">  Projects    </a>     </li>
-                    </ul>
-                </div>
-       
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+            <a class="navbar-brand font-hiro ms-5" href="#">ARYANA
+                BAKHSHANDEH</a>
+
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarID">
+                <ul class="navbar-nav ms-auto pe-5">
+                    <li class="nav-item"> <a href="#home" class="nav-link"> Home </a> </li>
+                    <li class="nav-item"> <a  class="nav-link"> Blog </a> </li>
+                    <li class="nav-item"> <a  class="nav-link"> Teaching </a> </li>
+                    <li class="nav-item"> <a  class="nav-link"> Projects </a> </li>
+                </ul>
+            </div>
+
         </nav>
 
         <!-- Home  -->
-      
-     
-        <div  class="top-container">
-            
-                  <div class="profile-container">
-                <img src="./image/MyPic.jpg" alt="MyPic.jpg"
-                    class="Profile_img">
+
+
+        <div class="top-container">
+
+            <div class="profile-container">
+                <img src="./image/MyPic.jpg" alt="MyPic.jpg" class="Profile_img">
 
                 <h1>ELECTRICAL ENGINEER & PROGRAMMER</h1>
-              
+
 
             </div>
             <div class="contactMe-container">
-                <h4>About Me</h4>
+                <a href="#about"><h4  >About Me</h4></a>
 
-                <h4 class="ContactMe-inline">Resume</h4>
-                <h4 class="ContactMe-inline">Projects</h4>
+                <a href=""> <h4 class="ContactMe-inline" > Resume </h4></a>
+                <a href="#projects"><h4 class="ContactMe-inline">Projects</h4> </a> 
             </div>
 
         </div>
 
-        <!-- About me  -->
-        <div style="background-color:#EAF6F6 ;" class="middle-container">
-            <div class="about-row about-divs">
+    </section>
+
+    <!-- About me  -->
+    <section id='about' class="middle-container">
+        <div class="about-row about-divs">
+            <div class="container">
                 <h2 class="aboutMe-subjects">ABOUT ME</h2>
 
                 <ul style="text-align: left;">
-                    <li>Electrical Engineering student at Isfahan University Of Technology</li>
-                    <li>Aside from my 1academic major , i'm interested in computer science and Game Dev</li>
-                    <li>occasionally working on Networking ,AVR and Programming projects on my free times</li>
+                    <li>Electrical Engineering student at Isfahan University
+                        Of Technology</li>
+                    <li>Aside from my academic major , i'm interested in
+                        computer science and Game Dev</li>
+                    <li>occasionally working on Networking ,AVR and
+                        Programming projects on my free times</li>
                 </ul>
-
             </div>
+        </div>
+    </section>
 
-            <div class="skill-row about-divs">
+    <section id="skills" class="middle-container">
+
+        <div class="skill-row about-divs">
+            <div class="container">
                 <h2 class="aboutMe-subjects">SKILLS</h2>
                 <table class="table">
                     <tr>
-                        <td>C#</td> <td>☣️☣️☣️</td>
+                        <td>C#</td>
+                        <td>☣️☣️☣️</td>
                     </tr>
                     <tr>
-                        <td>Cpp / C</td> <td>☣️☣️☣️</td>
+                        <td>Cpp / C</td>
+                        <td>☣️☣️☣️</td>
                     </tr>
                     <tr>
-                        <td>Python </td> <td>☣️☣️☣️</td>
+                        <td>Python </td>
+                        <td>☣️☣️☣️</td>
                     </tr>
                     <tr>
-                        <td>Embedded Systems (AVR) </td> <td>☣️☣️</td>
+                        <td>Embedded Systems (AVR) </td>
+                        <td>☣️☣️</td>
                     </tr>
                     <tr>
-                        <td>Web Development</td> <td>☣️</td>
+                        <td>Web Development</td>
+                        <td>☣️</td>
                     </tr>
 
                 </table>
-
-            </div>
-            <div class="project-row about-divs">
-                <h2 class="aboutMe-subjects">PROJECTS</h2>
             </div>
 
 
         </div>
+    </section>
 
+    <section id="projects" class="middle-container">
+        <div class="container ">
+            <h2 class="aboutMe-subjects">PROJECTS</h2>
+            <br><br>
+            <div class="mt-4 p-5 bg-warning text-white rounded mb-0">
+                <p>Still working on Page...</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    </div>
+    <section id="footer" class="bottom-container">
         <div class="bottom-container">
-            <p> 
-                <a href="http://" style="display:none;">LINKEDIN</a> 
-                <a href="http://"> <i class="fa-brands fa-twitter fa-2x me-2 "></i> </a>
-                <a href="http://"> <i class="fa-brands fa-quora fa-2x me-2 ms-2"></i> </a>    <!-- QUERA.ORG-->
-                <a href="http://">  <i class="fa-brands fa-github-alt fa-2x  me-2 ms-2"></i> </a> 
-                <a href="http://"><i class="fa-brands fa-instagram fa-2x  me-2 ms-2"></i></a>
-                <a href="http://"><i class="fa-brands fa-telegram fa-2x  me-2 ms-2"></i></a>
+            <p>
+                <a href="http://" style="display:none;">LINKEDIN</a>
+                <a href="https://twitter.com/Aryana_Bkh"> <i class="fa-brands fa-twitter fa-2x me-2"></i></a>
+                <a href="https://quera.org/profile/Raizou"> <i class="fa-brands fa-quora fa-2x me-2 ms-2"></i></a> <!-- QUERA.ORG-->
+                <a href="https://github.com/AryanaBakhshandeh"> <i class="fa-brands fa-github-alt fa-2x me-2 ms-2"></i></a>
+                <a href="https://www.instagram.com/aryana.bkh"><i class="fa-brands fa-instagram fa-2x
+                    ms-2"></i></a>
+                <a href="https://t.me/aryana_bkh"><i class="fa-brands fa-telegram fa-2x me-2 ms-2"></i></a>
             </p>
-            <p class="copyright">©2022 Aryana Bakhshande </p>
+            <p class="copyright">©2022 Aryana Bakhshandeh </p>
 
 
         </div>
-        <!--bootstrap script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    </body>
+    </section>
+
+
+
+    <!--bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

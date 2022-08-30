@@ -87,8 +87,9 @@ a:hover{
    
 }
 .middle-container{
+    background-color:#EAF6F6;
     margin: 0;
-    padding: 10%;
+     padding: 10% 0; 
 
 }
 .bottom-container{
@@ -97,12 +98,12 @@ a:hover{
     background-color:#66BFBF ; 
 }
 .about-divs{
-    margin:100px auto 100px auto;
-    width: 50%;
+     margin:100px auto 100px auto; 
+    /* width: 50%; */
 }
 .about-row{
-    width: 50%;
-    margin: 0 auto 0 auto;
+    /* width: 50%; */
+     margin: 0 auto 0 auto; 
 }
 .aboutMe-subjects{
     text-align: left;

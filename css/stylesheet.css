@@ -58,9 +58,7 @@ div{
     margin:0;
 }
 
-table{
-    margin: 0 auto 0 auto;
-}
+
 td{
     padding: 0 20px 0 20px;
 }
@@ -143,4 +141,7 @@ section{
 .Icon_links_m_p{
     margin: 0;
     padding:0;
+}
+.progress-bar{
+background-color:#66BFBF;
 }

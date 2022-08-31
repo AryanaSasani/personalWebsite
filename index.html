@@ -27,12 +27,12 @@
 
 <body>
 
-    <section id="home">
+    
         <!-- NavBar-->
 
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-            <a class="navbar-brand font-hiro ms-5" href="#">ARYANA
+            <a class="navbar-brand font-hiro ms-3" href="#">ARYANA
                 BAKHSHANDEH</a>
 
             <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID"
@@ -42,19 +42,34 @@
 
             <div class="collapse navbar-collapse" id="navbarID">
                 <ul class="navbar-nav ms-auto pe-5">
-                    <li class="nav-item"> <a href="#home" class="nav-link"> Home </a> </li>
-                    <li class="nav-item"> <a  class="nav-link"> Blog </a> </li>
-                    <li class="nav-item"> <a  class="nav-link"> Teaching </a> </li>
-                    <li class="nav-item"> <a  class="nav-link"> Projects </a> </li>
+                    <li class="nav-item"> <a href="./index.html" class="nav-link"> Home </a> </li>
+                    <li class="nav-item"> <a class="nav-link Disable_Link"> Blog </a> </li>
+                    <li class="nav-item"> <a class="nav-link Disable_Link"> Teaching </a> </li>
+
+
+                    <!-- DropDown  (projects)-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="./Web_Projects.html">Web_Projects</a></li>
+                            <li><a class="dropdown-item Disable_Link" href="#">AVR</a></li>
+                            <li><a class="dropdown-item Disable_Link" href="#">Desktop</a></li>
+                            <li><a class="dropdown-item Disable_Link" href="#">Comunication</a></li>
+
+                        </ul>
+                    </li>
+
                 </ul>
+
             </div>
 
         </nav>
 
         <!-- Home  -->
+    <section id="home  "class=" mainContainer_p_m top-container">
 
-
-        <div class="top-container">
+        <div class="container "> 
 
             <div class="profile-container">
                 <img src="./image/MyPic.jpg" alt="MyPic.jpg" class="Profile_img">
@@ -64,10 +79,16 @@
 
             </div>
             <div class="contactMe-container">
-                <a href="#about"><h4  >About Me</h4></a>
+                <a href="#about">
+                    <h4>About Me</h4>
+                </a>
 
-                <a href=""> <h4 class="ContactMe-inline" > Resume </h4></a>
-                <a href="#projects"><h4 class="ContactMe-inline">Projects</h4> </a> 
+                <a href="">
+                    <h4 class="ContactMe-inline"> Resume </h4>
+                </a>
+                <a href="#projects">
+                    <h4 class="ContactMe-inline">Projects</h4>
+                </a>
             </div>
 
         </div>
@@ -76,7 +97,7 @@
 
     <!-- About me  -->
     <section id='about' class="middle-container">
-        <div class="about-row about-divs">
+        <!-- <div class="about-row about-divs"> -->
             <div class="container">
                 <h2 class="aboutMe-subjects">ABOUT ME</h2>
 
@@ -89,12 +110,12 @@
                         Programming projects on my free times</li>
                 </ul>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
 
     <section id="skills" class="middle-container">
 
-        <div class="skill-row about-divs">
+        <!-- <div class="skill-row about-divs"> -->
             <div class="container">
                 <h2 class="aboutMe-subjects">SKILLS</h2>
                 <table class="table">
@@ -123,13 +144,25 @@
             </div>
 
 
-        </div>
+        <!-- </div> -->
     </section>
 
     <section id="projects" class="middle-container">
         <div class="container ">
-            <h2 class="aboutMe-subjects">PROJECTS</h2>
+            <h2 class="aboutMe-subjects">RECENT PROJECTS</h2>
             <br><br>
+             <!-- Project Cards -->
+          
+             <div class="card " style="width: 18rem;">
+                <img src="./image/Projects/Web/Dice_Scr.png" class="card-img-top" alt="Dice_Scr.png">
+                <div class="card-body">
+                <h5 class="card-title">Dice</h5>
+                <p class="card-text">draw two Dices and bet who win ! 🎲</p>
+                <a href="./Web_Projects/Dice/index.html" class="btn btn-primary">Open Page</a>
+                </div>
+            </div>
+
+            <!-- warning Message -->
             <div class="mt-4 p-5 bg-warning text-white rounded mb-0">
                 <p>Still working on Page...</p>
             </div>
@@ -143,13 +176,16 @@
 
 
     </div>
-    <section id="footer" class="bottom-container">
-        <div class="bottom-container">
-            <p>
+    <footer id="footer" class="bottom-container " >
+    
+        <div >
+            <p class="Icon_links_m_p">
                 <a href="http://" style="display:none;">LINKEDIN</a>
                 <a href="https://twitter.com/Aryana_Bkh"> <i class="fa-brands fa-twitter fa-2x me-2"></i></a>
-                <a href="https://quera.org/profile/Raizou"> <i class="fa-brands fa-quora fa-2x me-2 ms-2"></i></a> <!-- QUERA.ORG-->
-                <a href="https://github.com/AryanaBakhshandeh"> <i class="fa-brands fa-github-alt fa-2x me-2 ms-2"></i></a>
+                <a href="https://quera.org/profile/Raizou"> <i class="fa-brands fa-quora fa-2x me-2 ms-2"></i></a>
+                <!-- QUERA.ORG-->
+                <a href="https://github.com/AryanaBakhshandeh"> <i
+                        class="fa-brands fa-github-alt fa-2x me-2 ms-2"></i></a>
                 <a href="https://www.instagram.com/aryana.bkh"><i class="fa-brands fa-instagram fa-2x
                     ms-2"></i></a>
                 <a href="https://t.me/aryana_bkh"><i class="fa-brands fa-telegram fa-2x me-2 ms-2"></i></a>
@@ -158,8 +194,8 @@
 
 
         </div>
-    </section>
 
+    </footer>
 
 
     <!--bootstrap script -->
